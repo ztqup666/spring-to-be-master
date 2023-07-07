@@ -37,13 +37,13 @@ Spring AOP 延用了 AspectJ 中的概念，使用了 AspectJ 提供的 jar 包�
 
    ```angelscript
    angelscript
-   复制代码<aop:aspectj-autoproxy/>
+   <aop:aspectj-autoproxy/>
    ```
 
 2. 使用`@EnableAspectJAutoProxy`注解
 
    ```less
-   less复制代码@Configuration
+   @Configuration
    @EnableAspectJAutoProxy
    public class Config {
    
